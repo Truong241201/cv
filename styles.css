@@ -1,0 +1,173 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/*Navigation Bar*/
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0px 18px 0px 18px;
+}
+.nav-link {
+  font-size: 1.1rem;
+  font-family: "Ubuntu";
+}
+/*Dowload Buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*title images*/
+.dog {
+  transform: rotate(25deg);
+  width: 21%;
+  position: absolute;
+  right: 24%;
+}
+
+.fas {
+  color: #ef8172;
+  padding-bottom: 15px;
+}
+
+p {
+color: #8f8f8f;
+}
+
+#features {
+  padding:7% 15%;
+  z-index: 1;
+  position: relative;
+  background-color: #fff;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.long {
+text-align: center;
+}
+
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+}
+
+.fas:hover {
+  color: #ff4c6a;
+}
+
+
+/*Testimonial section*/
+#testimonials {
+  text-align: center;
+  background-color:#ef8172;
+  color: #fff;
+}
+
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+#press {
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 150px;
+  margin-bottom: 100px;
+  padding-bottom: 40px;
+}
+
+.finish {
+  position: relative;
+  bottom: 60px;
+  font-family: "Montserrat";
+  font-size: 65px;
+  color: #fff;
+}
+.button-end1 {
+  color: black;
+}
+.bte {
+position: relative;
+bottom: 70px;
+}
+#footer {
+  background-color: #fff;
+  margin-bottom: 90px;
+  text-align: center;
+}
+.fa-envelope {
+  color: black;
+}
+.fabs {
+  padding: 20px 10px;
+}
